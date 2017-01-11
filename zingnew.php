@@ -1,3 +1,4 @@
+<?php
 function getJsontvzing($xml_link){
     $sourceJson = @file_get_contents($xml_link);
     $decodeJson = json_decode($sourceJson);
